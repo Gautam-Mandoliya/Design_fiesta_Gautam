@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2E1B50; 
+  }
+  
+  .p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .c1 {
+    padding: 20px;
+    border-radius: 0px;
+    width: 800px;
+    height: 600px;
+   
+    box-shadow: 
+    inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 0 0px white,
+    0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.c1_1{
+display: flexbox;
+align-items: center;
+justify-content:center;
+height: 50px;
+margin-top: 50px;
+width: auto;
+background-color: beige;
+}
+
+.c1_1 .music {
+    font-family: 'Jura', sans-serif; 
+    color: #FFD700; 
+    font-style: italic;
+  }
+  
+  .c1_1 .ship {
+    font-family: 'Jura', sans-serif; /* Applying the Jura font to the "SHIP" paragraph */
+  }
